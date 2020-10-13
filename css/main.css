@@ -27,3 +27,9 @@ main {
   justify-content: center;
   flex-direction: column;
 }
+
+.kaze-logo {
+  max-width: 120px;
+  width: 200px;
+  margin-bottom: 40px;
+}
