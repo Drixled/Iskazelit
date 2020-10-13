@@ -1,0 +1,29 @@
+:root {
+  --вакуум: #151515;
+  --кровь: #4e1212;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 9px;
+  background-color: var(--кровь);
+  color: var(--кровь);
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  background-image: url('../4014960.jpg');
+  background-size: cover;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
