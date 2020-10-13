@@ -10,7 +10,7 @@ var text = new Blotter.Text("YES, KAZE SO LIT", {
 var material = new Blotter.LiquidDistortMaterial();
 
 material.uniforms.uSpeed.value = 0.1;
-material.uniforms.uVolatility.value = 0.15;
+material.uniforms.uVolatility.value = 0.075;
 
 var blotter = new Blotter(material, {
   texts : text
